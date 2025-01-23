@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-columns: 8cm 25cm 8cm;
+            grid-template-rows: 4cm 20cm 4cm;
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+        .d1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: red;
+            color: white;
+            text-align: center;
+            align-content: center;
+        }
+        .d2{
+            background-color: cadetblue;
+            color: white;
+            padding-left: 20px;
+        }
+        .d3{
+            background-color: blueviolet;
+            color: black;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .d4{
+            background-color: brown;
+            color: black;
+            padding-right: 20;
+        }
+        
+
+        .d5{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: red;
+            color: white;
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="d1">Header</div>
+        <div class="d2">Navigation</div>
+        <div class="d3">Main content</div>
+        <div class="d4">side bar</div>
+        <div class="d5">Footers</footer></div>
+    </div>
+</body>
+</html>
